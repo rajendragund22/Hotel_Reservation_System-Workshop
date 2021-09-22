@@ -5,18 +5,36 @@ public class Hotel {
     private String name;
     private int regularWeekdayRate;
     private int regularWeekendRate;
+    private int rating;
     private int rewardsWeekdayRate;
     private int rewardsWeekendRate;
-    private int rating;
 
-    public Hotel(String name, int regularWeekdayRate, int regularWeekendRate, int rewardsWeekdayRate,
-                 int rewardsWeekendRate, int rating) {
+    public Hotel(String name, int regularWeekdayRate) {
+        this.name = name;
+        this.regularWeekdayRate = regularWeekdayRate;
+    }
+
+    public Hotel(String name, int regularWeekdayRate, int regularWeekendRate) {
         this.name = name;
         this.regularWeekdayRate = regularWeekdayRate;
         this.regularWeekendRate = regularWeekendRate;
+    }
+
+    public Hotel(String name, int regularWeekdayRate, int regularWeekendRate, int rating) {
+        this.name = name;
+        this.regularWeekdayRate = regularWeekdayRate;
+        this.regularWeekendRate = regularWeekendRate;
+        this.rating = rating;
+    }
+
+    public Hotel(String name, int regularWeekdayRate, int regularWeekendRate, int rating, int rewardsWeekdayRate,
+                 int rewardsWeekendRate) {
+        this.name = name;
+        this.regularWeekdayRate = regularWeekdayRate;
+        this.regularWeekendRate = regularWeekendRate;
+        this.rating = rating;
         this.rewardsWeekdayRate = rewardsWeekdayRate;
         this.rewardsWeekendRate = rewardsWeekendRate;
-        this.rating = rating;
     }
 
     public String getName() {
