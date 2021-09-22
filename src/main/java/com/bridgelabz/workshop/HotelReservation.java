@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HotelReservation {
-
     private List<Hotel> hotels;
 
     public HotelReservation() {
