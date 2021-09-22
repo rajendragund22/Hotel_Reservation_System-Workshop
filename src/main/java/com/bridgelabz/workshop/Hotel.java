@@ -10,8 +10,7 @@ public class Hotel {
     private int rating;
 
     public Hotel(String name, int regularWeekdayRate, int regularWeekendRate, int rewardsWeekdayRate,
-                 int rewardsWeekendRate, int rating)
-    {
+                 int rewardsWeekendRate, int rating) {
         this.name = name;
         this.regularWeekdayRate = regularWeekdayRate;
         this.regularWeekendRate = regularWeekendRate;
@@ -20,63 +19,51 @@ public class Hotel {
         this.rating = rating;
     }
 
-    public String getName()
-    {
+    public String getName() {
         return name;
     }
 
-    public void setName(String name)
-    {
+    public void setName(String name) {
         this.name = name;
     }
 
-    public int getRegularWeekdayRate()
-    {
+    public int getRegularWeekdayRate() {
         return regularWeekdayRate;
     }
 
-    public void setRegularWeekdayRate(int regularWeekdayRate)
-    {
+    public void setRegularWeekdayRate(int regularWeekdayRate) {
         this.regularWeekdayRate = regularWeekdayRate;
     }
 
-    public int getRegularWeekendRate()
-    {
+    public int getRegularWeekendRate() {
         return regularWeekendRate;
     }
 
-    public void setRegularWeekendRate(int regularWeekendRate)
-    {
+    public void setRegularWeekendRate(int regularWeekendRate) {
         this.regularWeekendRate = regularWeekendRate;
     }
 
-    public int getRewardsWeekdayRate()
-    {
+    public int getRewardsWeekdayRate() {
         return rewardsWeekdayRate;
     }
 
-    public void setRewardsWeekdayRate(int rewardsWeekdayRate)
-    {
+    public void setRewardsWeekdayRate(int rewardsWeekdayRate) {
         this.rewardsWeekdayRate = rewardsWeekdayRate;
     }
 
-    public int getRewardsWeekendRate()
-    {
+    public int getRewardsWeekendRate() {
         return rewardsWeekendRate;
     }
 
-    public void setRewardsWeekendRate(int rewardsWeekendRate)
-    {
+    public void setRewardsWeekendRate(int rewardsWeekendRate) {
         this.rewardsWeekendRate = rewardsWeekendRate;
     }
 
-    public int getRating()
-    {
+    public int getRating() {
         return rating;
     }
 
-    public void setRating(int rating)
-    {
+    public void setRating(int rating) {
         this.rating = rating;
     }
 
