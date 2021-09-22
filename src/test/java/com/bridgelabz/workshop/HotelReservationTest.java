@@ -1,6 +1,5 @@
 package com.bridgelabz.workshop;
 
-
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -14,7 +13,7 @@ import org.junit.Test;
 public class HotelReservationTest {
 
     @Test
-    public void whenHotel_AddedToSystem_ShouldGetAdded() {
+    public void whenHotelAddedToSystemShouldGetAdded() {
         Hotel hotel1 = new Hotel("Lakewood", 110, 90, 80, 80, 3);
         Hotel hotel2 = new Hotel("Bridgewood", 160, 60, 110, 50, 4);
         Hotel hotel3 = new Hotel("Ridgewood", 220, 150, 100, 40, 5);
@@ -29,7 +28,7 @@ public class HotelReservationTest {
     }
 
     @Test
-    public void whenGivenDateRange_ShouldReturn_CheapestHotel() {
+    public void whenGivenDateRangeShouldReturnCheapestHotel() {
         Hotel hotel1 = new Hotel("Lakewood", 110, 90, 80, 80, 3);
         Hotel hotel2 = new Hotel("Bridgewood", 160, 60, 110, 50, 4);
         Hotel hotel3 = new Hotel("Ridgewood", 220, 150, 100, 40, 5);
@@ -43,7 +42,7 @@ public class HotelReservationTest {
     }
 
     @Test
-    public void whenGivenHotelAdded_ShouldAddWeekendPrices() {
+    public void whenGivenHotelAddedShouldAddWeekendPrices() {
         Hotel hotel1 = new Hotel("Lakewood", 110, 90, 80, 80, 3);
         Hotel hotel2 = new Hotel("Bridgewood", 160, 60, 110, 50, 4);
         Hotel hotel3 = new Hotel("Ridgewood", 220, 150, 100, 40, 5);
@@ -58,7 +57,7 @@ public class HotelReservationTest {
     }
 
     @Test
-    public void whenGivenDateRange_ShouldReturn_CheapestHotels() {
+    public void whenGivenDateRangeShouldReturnCheapestHotels() {
         Hotel hotel1 = new Hotel("Lakewood", 110, 90, 80, 80, 3);
         Hotel hotel2 = new Hotel("Bridgewood", 150, 50, 110, 50, 4);
         Hotel hotel3 = new Hotel("Ridgewood", 220, 150, 100, 40, 5);
@@ -72,7 +71,7 @@ public class HotelReservationTest {
     }
 
     @Test
-    public void whenHotelAdded_ToSystemRatingShould_GetAdded() {
+    public void whenHotelAddedToSystemRatingShouldGetAdded() {
         Hotel hotel1 = new Hotel("Lakewood", 110, 90, 80, 80, 3);
         Hotel hotel2 = new Hotel("Bridgewood", 160, 60, 110, 50, 4);
         Hotel hotel3 = new Hotel("Ridgewood", 220, 150, 100, 40, 5);
@@ -87,7 +86,7 @@ public class HotelReservationTest {
     }
 
     @Test
-    public void whenGivenDateRange_ShouldReturn_CheapestBestRatedHotels() // cheapest best rated hotels.
+    public void whenGivenDateRangeShouldReturnCheapestBestRatedHotels() //best rated hotel.
     {
         Hotel hotel1 = new Hotel("Lakewood", 110, 90, 80, 80, 3);
         Hotel hotel2 = new Hotel("Bridgewood", 150, 50, 110, 50, 4);
