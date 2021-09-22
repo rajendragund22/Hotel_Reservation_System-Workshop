@@ -1,5 +1,6 @@
 package com.bridgelabz.workshop;
 
+
 public class Hotel {
 
     private String name;
